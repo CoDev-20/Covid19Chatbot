@@ -1,7 +1,7 @@
 # Covid-19 Chatbot
 ## Covid-19 Chatbot is a project currently in development by team CoDev-20 from Mapua Univesity.
 
-It is currently in heavy development and we are still looking for good training data or dataset. If you happen to find one, we would appreciate if you email us the link.
+It is currently in heavy development and we are still looking for good training data or dataset.
 
 ---
 
