@@ -7,7 +7,7 @@ It is currently in heavy development and we are still looking for good training 
 
 ### Setup and Installation
 
-We recommend to setup this in a virtual environment like anaconda.<br>
+Guys setup niyo ito in a virtual environment like anaconda.<br>
 To create an environment, open Anaconda prompt and execute this on the terminal
 ```
 conda create -n codev20
@@ -16,7 +16,7 @@ or (to install all dependencies)
 ```
 conda create -n codev20 python tensorflow SpeechRecognition nltk numpy PyAudio
 ```
-If you want to install the packages manually, you can do it also using pip. Here arre the packages required:
+If you want to install the packages manually, you can do it also using pip. Here are the packages required:
 <ul><li> <b>tensorflow</b> (400+ MB size so it may take a while download and install)</li>
 <li> <b>SpeechRecognition</b></li>
 <li> <b>nltk</b></li>
@@ -32,7 +32,7 @@ pip install tensorflow
 
 ### Running the program
 
-To run the program on VS Code, execute the command in conda terminal:
+To run the program on VS Code, navigate to the folder using the terminal then execute the command in conda terminal:
 ```
 code .
 ```
