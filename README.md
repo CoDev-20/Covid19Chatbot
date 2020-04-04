@@ -43,8 +43,25 @@ then run the ```main2.py```
 ```
 python main2.py
 ```
+<br>
 
-<br><br>
+## What's done
+<ul>
+<li> <b>Text chat on terminal</b> </li>
+<li> <b>Voice chat on terminal</b></li>
+<li> <b>NLP (tokenization, stemming, etc.)</b></li>
+</ul>
+
+## Under development
+<ul>
+<li> <b>GUI</b> </li>
+<li> <b>Database</b></li>
+<li> <b>Training data (Web scraping)</b></li>
+<li> <b>Bot, GUI, database integration</b></li>
+</ul>
+
+<br>
+
 ### CoDev-20
 - Rane Gillian Villanueva Pogi
 - John Rivera
