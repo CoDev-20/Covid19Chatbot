@@ -45,8 +45,9 @@ python main2.py
 ```
 <br>
 
-## What's done
+## What's for finalization
 <ul>
+<li> <b>GUI</b> </li>
 <li> <b>Text chat on terminal</b> </li>
 <li> <b>Voice chat on terminal</b></li>
 <li> <b>NLP (tokenization, stemming, etc.)</b></li>
@@ -54,7 +55,6 @@ python main2.py
 
 ## Under development
 <ul>
-<li> <b>GUI</b> </li>
 <li> <b>Database</b></li>
 <li> <b>Training data (Web scraping)</b></li>
 <li> <b>Bot, GUI, database integration</b></li>
