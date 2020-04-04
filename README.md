@@ -63,7 +63,7 @@ python main2.py
 <br>
 
 ### CoDev-20
-- Rane Gillian Villanueva Gwapo
+- Rane Gillian Villanueva
 - John Rivera
 - Rendell Sheen Suliva
 - Gian Karlo Madrid
