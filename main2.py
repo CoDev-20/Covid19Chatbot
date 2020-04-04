@@ -73,13 +73,6 @@ except:
         print(ex)
 
 ops.reset_default_graph()
-"""
-#tflearn
-net = tfl.input_data(shape=[None, len(training[0])])
-net = tfl.fully_connected(net, 8)
-net = tfl.fully_connected(net, 8)
-net = tfl.fully_connected(net, len(output[0], activation = "softmax"))
-"""
 
 # keras
 ops.reset_default_graph()
@@ -97,24 +90,12 @@ model.compile(optimizer="adam",
 try:
     model = krs.models.load_model('testmodel')
 except Exception as ex:
-    #print(ex)
-    # , show_metrics=True)
     model.fit(training, output, epochs=1000, batch_size=8)
     model.save(r"testmodel")
 
 
-'''
-model = tfl.DNN(net)
 
-try:
-    model.save("model.tflearn")
-except:
-    model.fit(training, output, n_epoch=1000, batch_size=8, show_metric=True)
-    model.save("model.tflearn")
-'''
 # functions
-
-
 def bag_of_words(s, words):
     bag = [0 for _ in range(len(words))]
 
@@ -130,7 +111,6 @@ def bag_of_words(s, words):
 
 
 def chat():
-    #print(r"Hi! I am Doc VI. (type quit to stop :))")
     while True:
         inp = input("You: ")
         if inp.lower() == "quit":
@@ -158,7 +138,6 @@ def voice():
         print("invalid option")
         voice()
     else:
-        #print("You:", end=' ')
         r = sr.Recognizer()
 
         with sr.Microphone() as source:
@@ -185,16 +164,14 @@ def voice():
                     if inp.lower() == 'goodbye':
                         break
 
-                    print("Doc VI: ", random.choice(
+                    print("Chatbot: ", random.choice(
                         responses), "\nYou:", end = ' ')
                 except Exception as ex:
-                    #print(ex)
-                    print("Doc VI: Sorry I didn't understand you\nYou:", end = ' ')
-                    # voice()
+                    print("Chatbot: Sorry I didn't understand you\nYou:", end = ' ')
 
 
 def main():
-    inp = input("Hi! I'm Doc Vi\n"
+    inp = input("Hi! I'm Chatbot\n"
                 "Please type:\n"
                 "1 for chat\n"
                 "2 for voice\n"
@@ -210,6 +187,5 @@ def main():
     else:
         print('invalid input')
         main()
-
 
 main()
