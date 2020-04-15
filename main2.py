@@ -72,24 +72,25 @@ except:
     except Exception as ex:
         print(ex)
 
-ops.reset_default_graph()
 
 # keras
 ops.reset_default_graph()
-model = krs.Sequential([
-    krs.layers.Dense(8, input_shape=(len(training[0]),)),
-    krs.layers.Dense(8),
-    krs.layers.Dense(len(output[0]), activation="softmax"),
-])
 
-
-model.compile(optimizer="adam",
-              loss="categorical_crossentropy", metrics=["acc"])
 
 
 try:
     model = krs.models.load_model('testmodel')
 except Exception as ex:
+    model = krs.Sequential([
+    krs.layers.Dense(8, input_shape=(len(training[0]),)),
+    krs.layers.Dense(8),
+    krs.layers.Dense(len(output[0]), activation="softmax"),
+    ])      
+
+
+    model.compile(optimizer="adam",
+              loss="categorical_crossentropy", metrics=["acc"])
+
     model.fit(training, output, epochs=1000, batch_size=8)
     model.save(r"testmodel")
 
