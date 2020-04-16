@@ -2,19 +2,22 @@
 
 
 {% block content %}
+{% load static %}
+
+
 <section class="msger">
   <main class="msger-chat">
     <div class="msg left-msg">
-      <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+      <div class="msg-img" style="background-image: url('{% static 'chatbot_website/images/logo.jpg' %}')"></div>
 
       <div class="msg-bubble">
         <div class="msg-info">
-          <div class="msg-info-name">Codev-20 Chatbot</div>
-          <div class="msg-info-time">12:45</div>
+          <div class="msg-info-name">CoDev-20 Chatbot</div>
+          <div class="msg-info-time"></div>
         </div>
 
         <div class="msg-text">
-          Hi, welcome to Codev-20 Chatbot! Go ahead and send me a message. 😄
+          Hi! Welcome to Codev-20 Chatbot! Go ahead and send me a message. 😄
         </div>
       </div>
     </div>
@@ -38,9 +41,13 @@
 
 
   // Icons made by Freepik from www.flaticon.com
-  const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
-  const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
-  const BOT_NAME = "CoronaBot";
+  
+  //const BOT_IMG = "{% static 'chatbot_website/images/logo.jpg' %}";
+  const BOT_IMG = "{% static 'chatbot_website/images/logo.jpg' %}";
+  //const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
+  //const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
+  const PERSON_IMG = "{% static 'chatbot_website/images/user.png' %}";
+  const BOT_NAME = "CoDev-20 Chatbot";
   const PERSON_NAME = '{{request.user.username}}';
 
   msgerForm.addEventListener("submit", event => {
@@ -78,7 +85,8 @@
     //   Simple solution for small apps
     const msgHTML = `
 <div class="msg ${side}-msg">
-<div class="msg-img" style="background-image: url(${img})"></div>
+{% load static %}
+<div class="msg-img" style="background-image:  url(${img})"></div>
 <div class="msg-bubble">
   <div class="msg-info">
     <div class="msg-info-name">${name}</div>

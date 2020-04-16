@@ -5,19 +5,22 @@
     {% load static %}
 
     {% if title %}
-        <title>CoDev-20 | {{ title }}</title>
-        <link rel="stylesheet" type="text/css" href="{%  static 'chatbot_website/css/css-main.css' %}" />
+    <title>CoDev-20 | {{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{%  static 'chatbot_website/css/css-main.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{%  static 'chatbot_website/css/css-responsive.css' %}" />
+    <link rel="shortcut icon" type="image/png" href="{% static 'chatbot_website/images/logo.ico' %}" />
     {% else %}
-        <title>CoDev-20</title>
-        <link rel="stylesheet" type="text/css" href="{%  static 'chatbot_website/css/css-main.css' %}" />
-        <link rel="stylesheet" type="text/css" href="{%  static 'chatbot_website/css/css-responsive.css' %}" />
-        {% endif %}
-    
+    <title>CoDev-20</title>
+    <link rel="stylesheet" type="text/css" href="{%  static 'chatbot_website/css/css-main.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{%  static 'chatbot_website/css/css-responsive.css' %}" />
+    <link rel="shortcut icon" type="image/png" href="{% static 'chatbot_website/images/logo.ico' %}" />
+    {% endif %}
+
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <meta charset="utf-8">
     <meta meta="viewport" content="width=device-width">
 
-    
+
 
 </head>
 
@@ -43,12 +46,12 @@
                         <li><a href='{% url 'website-about'  %}'>About Us</a></li>
                         <li><a href='#'>FAQs</a></li>
                     </ul>
-                    
+
                     {% else %}
                     <ol>
                         <li><a href='{% url 'website-login'  %}'>Login</a></li>
                         <li><a href='{% url 'website-signup'  %}'>Signup</a></li>
-                        
+
                     </ol>
                     <ul>
                         <li><a href='{% url 'website-about'  %}'>About Us</a></li>
