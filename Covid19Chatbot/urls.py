@@ -23,4 +23,4 @@ urlpatterns = [
 
 
 handler404 = 'chatbot_website.views.handler404'
-handler500 = 'chatbot_website.views.handler500'
+#handler500 = 'chatbot_website.views.handler500'

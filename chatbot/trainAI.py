@@ -34,7 +34,7 @@ class TrainAI():
 
         fileDir = os.path.dirname(os.path.abspath(__file__))
         print(fileDir)
-        with open(fileDir+r"\intents.json") as file:
+        with open(fileDir+r"\session.json", encoding='utf-8') as file:
             self.data = json.load(file)
 
         try:
