@@ -71,7 +71,7 @@
                 "what is your name"
             ],
             "responses": [
-                "I am Doc VI :)"
+                "I am Covid Chatbot :)"
             ],
             "context_set": ""
         },
@@ -84,9 +84,8 @@
                 "who put you into life"
             ],
             "responses": [
-                "I was created by students from Mapua University",
-                "Rane Pogi",
-                "Guess who"
+                "I was created by team CoDev-20 from Mapua University",
+                "CoDev-20"
             ],
             "context_set": ""
         }
