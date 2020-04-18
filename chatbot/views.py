@@ -18,7 +18,6 @@ def chatbot(request):
 def chatbot_response(request):
     context = {'title': 'Chatbot'}
     user = request.user
-    print(user)
     if not request.user.is_authenticated:
         #print("redirect")
         return redirect('website-login')
