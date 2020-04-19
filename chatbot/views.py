@@ -26,6 +26,14 @@ def chatbot_response(request):
         userMessage = request.POST.get('userMessage')
         #print(userMessage)
         botResponse = ai.chat(userMessage)
+        botAudio = ai.voice(botResponse)
+        #threading for faster
+        # Wait for all threads to complete
+        #{% static data.audio %}
+        #botAudio = r"{% static " + r"'chatbot_website/audio/" + botAudio + r"' %}"
+        
+        context['data'] = str(botResponse)
+        context['audio'] = str(botAudio)
 
         context['data'] = botResponse
         #print(context)
