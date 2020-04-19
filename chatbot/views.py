@@ -34,6 +34,8 @@ def chatbot_response(request):
         
         context['data'] = str(botResponse)
         context['audio'] = str(botAudio)
+
+        context['data'] = botResponse
         #print(context)
         return JsonResponse(context)
         
