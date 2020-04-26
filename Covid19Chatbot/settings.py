@@ -21,16 +21,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #for local
-#SECRET_KEY = 'x8=54g*2#5^=_^8@f&v=d=g+rkr012iccwv63w0=su%9@92tju'
+SECRET_KEY = 'x8=54g*2#5^=_^8@f&v=d=g+rkr012iccwv63w0=su%9@92tju'
 #for remote
 #SECRET_KEY = 'afdb6306425e7d3a47dc8f1d2947c2ae9ebdf240236f9351'
-SECRET_KEY = os.environ.get('SECRET_KEY')
+#SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 
-ALLOWED_HOSTS = ['codev20.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['codev20.herokuapp.com','127.0.0.1','Covid19Chatbot-env.eba-ff3iq8nb.us-west-2.elasticbeanstalk.com']
 
 #for password changing
 if DEBUG:

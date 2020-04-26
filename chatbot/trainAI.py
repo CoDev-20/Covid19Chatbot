@@ -117,7 +117,8 @@ class TrainAI():
         # keras
 
         try:
-            self.model = krs.models.load_model(fileDir+r"\testmodel.h5")
+            self.model = krs.models.load_model(fileDir+r"\model\testmodel.h5")
+            #self.model = pickle.load(open('model/testmodel.pkl', 'rb'))
         except Exception as ex:
             self.model = krs.Sequential([
                 krs.layers.Dense(8, input_shape=(len(self.training[0]),)),
@@ -130,9 +131,13 @@ class TrainAI():
                         loss="categorical_crossentropy", metrics=["acc"])
 
             self.model.fit(self.training, self.output, epochs=1000, batch_size=8)
-            self.model.save(fileDir+r"\testmodel.h5")
+            self.model.save(fileDir+r"\model\testmodel.h5")
+            #tf.saved_model.simple_save()
+            #pickle.dump(self.model, open('model/testmodel.pkl', 'wb'))
 
+        print(self.model)
 
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     # functions
     def bag_of_words(self, s, words):
         bag = [0 for _ in range(len(words))]
