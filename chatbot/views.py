@@ -43,5 +43,3 @@ def chatbot_response(request):
         context['audio'] = str(botAudio)
         #print(context)
         return JsonResponse(context)
-        
-# Create your views here.

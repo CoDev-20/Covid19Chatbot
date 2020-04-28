@@ -16,18 +16,6 @@ from gtts import gTTS
 import requests
 import re
 
-#heroku
-# import os
-# import sys
-# import speech_recognition as sr
-# import json
-# import pickle
-# import random
-# import keras as krs
-# import numpy as np
-# import nltk
-# from nltk.stem.lancaster import LancasterStemmer
-
 
 class TrainAI():
     items = 0
