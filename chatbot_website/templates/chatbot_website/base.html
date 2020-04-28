@@ -44,7 +44,7 @@
                     <ul>
                         <li><a href='{% url 'website-chatbot'  %}'>Chat with us</a></li>
                         <li><a href='{% url 'website-about'  %}'>About Us</a></li>
-                        <li><a href='#'>FAQs</a></li>
+                        <li><a href='{% url 'website-faqs'  %}'>FAQs</a></li>
                     </ul>
 
                     {% else %}
@@ -55,7 +55,7 @@
                     </ol>
                     <ul>
                         <li><a href='{% url 'website-about'  %}'>About Us</a></li>
-                        <li><a href='#'>FAQs</a></li>
+                        <li><a href='{% url 'website-faqs'  %}'>FAQs</a></li>
                     </ul>
                     {% endif %}
                 </div>

@@ -16,6 +16,7 @@ from account.views import (
 urlpatterns = [
     path('', views.home, name='website-home'),
     path('about/', views.about, name='website-about'),
+    path('faqs/', views.faqs, name='website-faqs'),
     path('login/', login_view, name='website-login'),
     path('signup/', registration_view, name='website-signup'),
     path('logout/', logout_view, name='website-logout'),

@@ -633,16 +633,15 @@ audio {
     font-size: 20px;
 }
 .sub-msg {
+    color: white;
     width: 100%;
     text-align: center;
 }
 .sub-msg h1 {
-    color: white;
     font-size: 40px;
 }
 .sub-msg h3 {
     margin-top: 50px;
-    color: white;
     font-size: 20px;
 }
 .sub-msg a {
@@ -1126,3 +1125,21 @@ audio {
 .msger-chat {
     background-color: rgba(255, 255, 255, 0.8);
 }
+
+.faq {
+    color: #fff;
+    list-style: circle;
+}
+.faq p {
+    padding-top: 5px;
+}
+.faq h1{
+    padding-top: 25px;
+}
+.faq ul{
+    padding-left: 25px;
+}
+.faq li{
+    list-style: circle;
+}
+

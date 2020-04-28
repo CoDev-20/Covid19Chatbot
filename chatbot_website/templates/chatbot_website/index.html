@@ -11,19 +11,20 @@
                 {% else %}
                 <h1>Welcome to CoDev-20</h1>
                 {% endif %}
-                <h3>Hi! I'am CoDev-20 chat bot. I will help you guide through fight against covid-19. With the
-                    impending threat of the virus, humans must be cautious at all times. I, CoDev-20 chat bot
-                    will help you what things to remember that will help us eradicated covid-19.</h3>
+                <h3>Hi! We are Team CoDev-20 and we created a CoDev-20 Chabot. The <a  style="color: #5DADE2;" href='{% url 'website-chatbot'  %}'>chatbot</a>
+                    will give you information regarding the Coronavirus including some statistics in the Philippines. With the
+                    impending threat of the virus, humans must be cautious at all times. We, CoDev-20
+                    will help you by providing things to remember that will help us eradicated this virus.</h3>
             </div>
             <div class="sub-msg">
                 {% if request.user.is_authenticated %}
                 <h3>
-                    See our <a href="#" style="color: #5DADE2;">terms and conditions here</a>
+                    See our <a href="#" style="color: #5DADE2;">Frequently Asked Questions</a>
                 </h3>
                 {% else %}
                 <h3>Get started by signing up if you don't have an account yet! <a href="{% url 'website-signup'  %}"
                         style="color: #5DADE2;">Sign up here</a>. See
-                    our <a href="#" style="color: #5DADE2;">terms and conditions here</a>
+                    our <a href="#" style="color: #5DADE2;">Frequently Asked Questions</a>
                 </h3>
                 {% endif %}
 

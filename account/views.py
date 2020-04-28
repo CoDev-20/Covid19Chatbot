@@ -15,7 +15,7 @@ def registration_view(request):
             raw_password = form.cleaned_data.get('password1')
             account = authenticate(username=username, email=email, password=raw_password)
             login(request,account)
-            return render(request, 'chatbot_website/pages/login.html', {'success':'success', 'title': 'Login'})
+            return render(request, 'chatbot_website/index.html', {'success':'success', 'title': 'Login'})
         else:
             context['registration_form'] = form
     else:
