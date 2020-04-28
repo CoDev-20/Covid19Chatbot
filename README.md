@@ -87,7 +87,7 @@ Open the URL using Google Chrome. Other browsers will hinder the voice functiona
 <br><br><br>
 ## Sample Snapshots
 ### Website Homepage
-![alt text](/images/1.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/1.PNG "Logo Title Text 1")
 
 
 ### About us page
