@@ -16,7 +16,24 @@
 _____
 <br><br>
 ## Project Documentation
- 
+* [Overview](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#overview)
+* [Objectives](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#objectives)
+* [Scope and Limitations](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#scope-and-limitations)
+* [Setup and Installation](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#setup-and-installation)
+* [Running the program](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#running-the-program)
+* [Sample Snapshots](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#sample-snapshots)
+  * [Website Homepage](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#website-homepage)
+  * [About us page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#about-us-page)
+  * [FAQs page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#faqs-page)
+  * [Chatbot page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#chatbot-page)
+  * [Chatbot Interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#chatbot-interactions)
+  * [Administrator Homepage](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#administrator-homepage)
+  * [Accounts Database](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#accounts-database)
+  * [Messages Database](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#messages-database)
+  
+
+
+
  
 ## Overview
 The outbreak of the novel coronavirus has sparked a health crisis that in turn has unleashed an unprecedented deployment of resources. The scientific and technology communities have put their full weight behind finding solutions that help mitigate the impact of the pandemic as it expands worldwide. CoDev-20 is an organization of students from MAPUA University. The developers created an Artifially Intelligent healthcare chatbot entitled CoDev-20 Chatbot that is designed to answer inquiries and questions from the user regarding the pandemic Corona Virus. The developers aim to provide reliable information and facts about the Corona Virus to lessen the falsification of information regarding the virus through an interactive chatbot that responds to the user’s queries. Individuals who suspect they might have the virus can conduct a physical self-assessment based on their symptoms while communicating with the bot, and depending on the result, they will receive instructions and advice about steps to take for treatment. This initiative aims to reduce call congestion for the regional coronavirus hotline and giving people an access to information that can help them during this crisis.
