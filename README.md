@@ -91,38 +91,38 @@ Open the URL using Google Chrome. Other browsers will hinder the voice functiona
  
  
 ### About us page
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/2.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/2.PNG "Logo Title Text 1")
  
 ### FAQs page
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/3.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/3.PNG "Logo Title Text 1")
  
 ### Chatbot page
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/4.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/4.PNG "Logo Title Text 1")
  
 ### Chatbot interactions
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/5.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/5.PNG "Logo Title Text 1")
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/6.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/6.PNG "Logo Title Text 1")
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/7.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/7.PNG "Logo Title Text 1")
  
 <br>
  
 ### Administrator Homepage
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/8.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/8.PNG "Logo Title Text 1")
  
 <br>
  
 ### Accounts database
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/9.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/9.PNG "Logo Title Text 1")
  
 <br>
  
 ### Messages Database
  
-![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/10.png "Logo Title Text 1")
+![alt text](https://github.com/CoDev-20/Covid19Chatbot/blob/master/images/10.PNG "Logo Title Text 1")
