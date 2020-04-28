@@ -30,7 +30,7 @@ SECRET_KEY = 'x8=54g*2#5^=_^8@f&v=d=g+rkr012iccwv63w0=su%9@92tju'
 DEBUG = True
 #DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 
-ALLOWED_HOSTS = ['codev20.herokuapp.com','127.0.0.1','Covid19Chatbot-env.eba-ff3iq8nb.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['7a31ad05.ngrok.io','127.0.0.1']
 
 #for password changing
 if DEBUG:

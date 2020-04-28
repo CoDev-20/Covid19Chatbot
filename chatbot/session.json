@@ -9,7 +9,11 @@
                 "Hello",
                 "Good day",
                 "Good morning",
-                "Good afernoon"
+                "Good afernoon",
+                "Hey",
+                "Hey there",
+                "What's up",
+                "Hola"
             ],
             "responses": [
                 "Hello, thanks for visiting",
