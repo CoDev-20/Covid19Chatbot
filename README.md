@@ -58,9 +58,10 @@ The scope and limitation of the CoDev-20 Chatbot is that the bot is trained to a
 Setup a virtual environment like Anaconda or python venv. For this project, we used Anaconda Virtual Environment<br>
 To create an environment, open Anaconda prompt and execute the command on the terminal.
 ```
-conda create -n codev20
+conda create -n codev20 python=3.7
+conda activate codev20
 ```
-install all the dependencies and libraries for the project
+install the libraries for the project
 ```
 pip install -r requirements.txt
 ```
