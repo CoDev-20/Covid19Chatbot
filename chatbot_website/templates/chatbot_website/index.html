@@ -24,7 +24,7 @@
                 {% else %}
                 <h3>Get started by signing up if you don't have an account yet! <a href="{% url 'website-signup'  %}"
                         style="color: #5DADE2;">Sign up here</a>. See
-                    our <a href="#" style="color: #5DADE2;">Frequently Asked Questions</a>
+                    our <a href='{% url 'website-faqs'  %}' style="color: #5DADE2;">Frequently Asked Questions</a>
                 </h3>
                 {% endif %}
 
