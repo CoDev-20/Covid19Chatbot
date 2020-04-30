@@ -47,8 +47,52 @@ The outbreak of the novel coronavirus has sparked a health crisis that in turn h
 ## Scope and Limitations
 The scope and limitation of the CoDev-20 Chatbot is that the bot is trained to answer queries limited to the topic regarding Corona Virus. The data gathered is based only in the Philippines in terms of total cases, recoveries, and deaths. It will not entertain other issues unrelated to Corona Virus.  
  
+## User Stories (General User)
+<b>Sign-up form</b>
+* As a general user, I want to be able to register an account to access the website.
+
+<b>Sign-in form</b>
+* As a general user, I want to be able to login with my pre-existing account to use the features of the website.
+
+<b>Website GUI</b>
+* As a general user, I want the website’s features to be user-friendly and is pleasant to see so that it easy to learn and use.
+
+<b>Website Main Page</b>
+* As a general user, I want a brief introduction at the start to be able to understand what I could do to the website.
+
+<b>Chat-bot Page</b>
+* As a general user, I want to be able to access the chat-bot page so that I could interact with the chat-bot.
+
+<b>Chat-bot</b>
+* As a general user, I want the chat-bot to respond to my greetings and inquiries about the COVID19 situation and information.
+
+<b>Chat-bot Voice Reading</b>
+* As a general user, I want to be able to hear the information just in case a situation arise that I would use that feature.
+
+<b>Voice-to-Chat Feature</b>
+* As a general user, I want to be able to convert my spoken words to chat in case a situation arise that I would use such feature.
+
+<b>About Us Page</b>
+* As a general user, I want an in-depth information about the website such as who created the website so that I could easily access such necessary information.
+
+<b>FAQs Page</b>
+* As a general user, I want to be able to learn about the frequently asked questions so that I would know what the page is for or how to chat/use the chat-bot.
+
+## User Stories (Administrator)
+<b>View all and Edit Messages</b>
+* As an admin, I want to view all the user's responses to our COVID bot and also have a complete access to the database of the messages.
+
+<b>Sign in as admin</b>
+* As an admin, I want to sign as an admin to manipulate the users and admins list.
+
+<b>Sign up as admin</b>
+* As an admin, I want to sign up another admin onto to the administrator homepage.
+
+<b>CRUD (Create, Read, Update, Delete) Users list</b>
+* As an admin, I want to create, read, update and delete the database of the users list.
+
 <br>
- 
+
 ---
  
 <br>
