@@ -16,20 +16,22 @@
 _____
 <br><br>
 ## Project Documentation
-* [Overview](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#overview)
-* [Objectives](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#objectives)
-* [Scope and Limitations](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#scope-and-limitations)
-* [Setup and Installation](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#setup-and-installation)
-* [Running the program](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#running-the-program)
-* [Sample Snapshots](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#sample-snapshots)
-  * [Website Homepage](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#website-homepage)
-  * [About us page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#about-us-page)
-  * [FAQs page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#faqs-page)
-  * [Chatbot page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#chatbot-page)
-  * [Chatbot Interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#chatbot-interactions)
-  * [Administrator Homepage](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#administrator-homepage)
-  * [Accounts Database](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#accounts-database)
-  * [Messages Database](https://github.com/CoDev-20/Covid19Chatbot/blob/master/README.md#messages-database)
+* [Overview](https://github.com/CoDev-20/Covid19Chatbot/#overview)
+* [Objectives](https://github.com/CoDev-20/Covid19Chatbot/#objectives)
+* [Scope and Limitations](https://github.com/CoDev-20/Covid19Chatbot/#scope-and-limitations)
+* [User Stories (General User)](https://github.com/CoDev-20/Covid19Chatbot#user-stories-general-user)
+* [User Stories (Administrator)](https://github.com/CoDev-20/Covid19Chatbot#user-stories-administrator)
+* [Setup and Installation](https://github.com/CoDev-20/Covid19Chatbot/#setup-and-installation)
+* [Running the program](https://github.com/CoDev-20/Covid19Chatbot/#running-the-program)
+* [Sample Snapshots](https://github.com/CoDev-20/Covid19Chatbot/#sample-snapshots)
+  * [Website Homepage](https://github.com/CoDev-20/Covid19Chatbot/#website-homepage)
+  * [About us page](https://github.com/CoDev-20/Covid19Chatbot/#about-us-page)
+  * [FAQs page](https://github.com/CoDev-20/Covid19Chatbot/#faqs-page)
+  * [Chatbot page](https://github.com/CoDev-20/Covid19Chatbot/#chatbot-page)
+  * [Chatbot Interactions](https://github.com/CoDev-20/Covid19Chatbot/#chatbot-interactions)
+  * [Administrator Homepage](https://github.com/CoDev-20/Covid19Chatbot/#administrator-homepage)
+  * [Accounts Database](https://github.com/CoDev-20/Covid19Chatbot/#accounts-database)
+  * [Messages Database](https://github.com/CoDev-20/Covid19Chatbot/#messages-database)
   
 
 
