@@ -1,0 +1,278 @@
+@media screen and (max-width: 1300px)
+{
+	.header-content
+	{
+		width: 1000px;
+	}
+	.footer-content
+	{
+		width: 1000px;
+	}
+	.greetings-container
+	{
+		width: 1000px;
+	}
+	.first-menu
+	{
+		width: 1000px;
+	}
+	.target-frame
+	{
+		width: 1000px;
+	}
+}
+@media screen and (max-width: 1000px)
+{
+	.header-content
+	{
+		width: 850px;
+	}
+	.footer-content
+	{
+		width: 850px;
+	}
+	.greetings-container
+	{
+		width: 850px;
+	}
+	.first-menu
+	{
+		width: 850px;
+	}
+	.first-menu-msg
+	{
+		width: 50%;
+		padding-right: 50px;
+	}
+	.main-intro
+	{
+		width: 850px;
+	}
+	.target-frame
+	{
+		width: 850px;
+	}
+}
+@media screen and (max-width: 870px)
+{
+	.header-content
+	{
+		width: 700px;
+	}
+	.footer-content
+	{
+		width: 700px;
+	}
+	.main-intro
+	{
+		width: 700px;
+	}
+	.first-menu
+	{
+		width: 700px;
+	}
+	.first-menu-msg
+	{
+		width: 40%;
+		padding-right: 0px;
+	}
+	.greetings-container
+	{
+		width: 700px;
+	}
+	.target-frame
+	{
+		width: 700px;
+	}
+	.account-editor-list-left-box, .account-editor-right-box
+	{
+		float: none;
+		width: auto;
+	}
+}
+@media screen and (max-width: 715px)
+{
+	.header-content
+	{
+		width: 600px;
+	}
+	.footer-content
+	{
+		width: 600px;
+	}
+	.main-intro
+	{
+		width: 600px;
+	}
+	.greetings-container
+	{
+		width: 600px;
+	}
+	.first-menu
+	{
+		width: 600px;
+	}
+	.first-menu-img, .first-menu-msg
+	{
+		float: none;
+		margin: 0 auto;
+	}
+	.first-menu-msg
+	{
+		width: 500px;
+		height: 0%;
+	}
+	.first-menu-img
+	{
+		margin-bottom: 30px;
+	}
+	.target-frame
+	{
+		width: 600px;
+	}
+	.product-list-container, .product-editor-container
+	{
+		float: none;
+		width: auto;
+	}
+}
+@media screen and (max-width: 620px)
+{
+	.main-intro
+	{
+		width: 100%;
+	}
+	.login-box, .signup-box
+	{
+		float: none;
+		margin: 10px auto;
+		position: relative;
+	}
+	.left-box, .navi, .logout-holder
+	{
+		display: none;
+	}
+	.menu
+	{
+		display: block;
+	}
+	.first-menu-img
+	{
+		width: 250px;
+		height: 250px;
+	}
+	.first-menu-msg
+	{
+		padding-right: 20px;
+	}
+	.first-menu
+	{
+		width: 100%;
+	}
+	.first-menu-msg
+	{
+		width: 100%;
+	}
+	.greetings-container
+	{
+		width: 100%;
+	}
+	.header-content
+	{
+		width: 100%;
+	}
+	.footer-container
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 390px)
+{
+	.navi
+	{
+		display: none;
+	}
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 420px)
+{
+	.navi
+	{
+		display: none;
+	}
+	.header-container
+	{
+		min-height: 110px;
+	}
+	.header-content
+	{
+		padding: 0;
+		text-align: center;
+	}
+	.companytitle
+	{
+		float: left;
+		display: inline-block;
+	}
+	.companytitle a
+	{
+		font-size: 75px;
+	}
+	.main-intro
+	{
+		width: 100%;
+		margin: 0;
+		text-align: none;
+	}
+	.left-box
+	{
+		display: none;
+	}
+	.login-box, .signup-box
+	{
+		float: none;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		min-width: 63%;
+		padding: 40px 20px 50px 20px;
+	}
+	.login-header h1, .signup-header h1
+	{
+		width: 100%;
+		margin: 0 auto;
+		font-size: 80px;
+	}
+	.text-input-widen
+	{
+		width: 500px;
+		padding: 10px;
+		margin: 10px;
+		font-size: 40px;
+	}
+	.button-submit
+	{
+		margin-top: 10px;
+		width: 500px;
+		padding: 10px 0px 10px 0px;
+		margin-top: 20px;
+		border-radius: 5px;
+		font-size: 25px;
+	}
+	.footer-left-box a
+	{
+		font-family: arial;
+		font-size: 30px;
+		color: white;
+	}
+	.error-des
+	{
+		font-size: 30px;
+	}
+	.error-message
+	{
+		font-size: 30px;
+	}
+}
