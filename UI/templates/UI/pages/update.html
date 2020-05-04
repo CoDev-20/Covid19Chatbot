@@ -1,0 +1,46 @@
+{% extends "UI/base.html" %}
+
+{% block content %}
+<div class="update-container">
+    <div class="update-box">
+        <label>
+            <h1>Update details</h1><br>
+        </label>
+        <!-- <form method="post" action="signup.php" autocomplete="off"></form> -->
+        <form method="post" autocomplete="off">
+            {% csrf_token %}
+
+            {% for field in account_form %}
+            <p>
+                {{field.label}}</br>
+                {{field}}</br>
+
+                {% for error in field.errors %}
+                <div class="error-holder">
+                    <label>
+                        {{error}}
+                    </label>
+                </div>
+                {% endfor %}
+            </p><br>
+            {% endfor %}
+
+            {% if account_form.non_field_errors %}
+            <div class="error-holder">
+                <label>
+                    {{account_form.non_field_errors}}
+                </label>
+            </div>
+            {% endif %}
+
+            <div class="update-button-holder">
+                <input type="submit" name="btnUpdate" value="UPDATE" />
+            </div>
+    </div>
+
+
+    </form>
+</div>
+</div>
+
+{% endblock content %}
