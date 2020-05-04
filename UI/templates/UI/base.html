@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+
+    {% if title %}
+    <title>CoDev-20 | {{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{%  static 'UI/css/css-main.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{%  static 'UI/css/css-responsive.css' %}" />
+    <link rel="shortcut icon" type="image/png" href="{% static 'UI/images/logo.ico' %}" />
+    {% else %}
+    <title>CoDev-20</title>
+    <link rel="stylesheet" type="text/css" href="{%  static 'UI/css/css-main.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{%  static 'UI/css/css-responsive.css' %}" />
+    <link rel="shortcut icon" type="image/png" href="{% static 'UI/images/logo.ico' %}" />
+    {% endif %}
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <meta charset="utf-8">
+    <meta meta="viewport" content="width=device-width">
+
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-container">
+            <div class="header-content">
+                <div class="companytitle">
+                    <h2><a href='{% url 'website-home'  %}'>CoDev-20</a></h2>
+                </div>
+                <div class='navi'>
+                    {% if request.user.is_authenticated %}
+
+                    <ul>
+                        <li><a href='{% url 'website-account'  %}'>{{request.user.username}}</a></li>
+                    </ul>
+                    <ol>
+                        <li><a href='{% url 'website-logout'  %}'>Logout</a></li>
+                    </ol>
+
+                    <ul>
+                        <li><a href='{% url 'website-chatbot'  %}'>Chat with us</a></li>
+                        <li><a href='{% url 'website-about'  %}'>About Us</a></li>
+                        <li><a href='{% url 'website-faqs'  %}'>FAQs</a></li>
+                    </ul>
+
+                    {% else %}
+                    <ol>
+                        <li><a href='{% url 'website-login'  %}'>Login</a></li>
+                        <li><a href='{% url 'website-signup'  %}'>Signup</a></li>
+
+                    </ol>
+                    <ul>
+                        <li><a href='{% url 'website-about'  %}'>About Us</a></li>
+                        <li><a href='{% url 'website-faqs'  %}'>FAQs</a></li>
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        {% block content %}
+
+        {% endblock content %}
+
+    </div>
+</body>
+
+</html>
