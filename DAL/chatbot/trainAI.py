@@ -1,8 +1,5 @@
-#local
-
 import os
 import sys
-import speech_recognition as sr
 import json
 import pickle
 import random
@@ -11,22 +8,11 @@ from tensorflow.python.framework import ops
 import tensorflow as tf
 import numpy as np
 import nltk
+nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 from gtts import gTTS
 import requests
 import re
-
-#heroku
-# import os
-# import sys
-# import speech_recognition as sr
-# import json
-# import pickle
-# import random
-# import keras as krs
-# import numpy as np
-# import nltk
-# from nltk.stem.lancaster import LancasterStemmer
 
 
 class TrainAI():
@@ -54,11 +40,11 @@ class TrainAI():
 
         fileDir = os.path.dirname(os.path.abspath(__file__))
         print(fileDir)
-        with open(fileDir+r"\session.json", encoding='utf-8') as file:
+        with open(fileDir+r"/session.json", encoding='utf-8') as file:
             self.data = json.load(file)
 
         try:
-            with open(fileDir+r"\data.pickle", "rb") as f:
+            with open(fileDir+r"/data.pickle", "rb") as f:
                 self.words, self.labels, self.training, self.output = pickle.load(f)
 
         except:
@@ -107,7 +93,7 @@ class TrainAI():
             self.output = np.array(self.output)
 
             try:
-                with open(fileDir+r"\data.pickle", "wb") as f:
+                with open(fileDir+r"/data.pickle", "wb") as f:
                     pickle.dump((self.words, self.labels, self.training, self.output), f)
             except Exception as ex:
                 print(ex)
@@ -117,8 +103,8 @@ class TrainAI():
         # keras
 
         try:
-            self.model = krs.models.load_model(fileDir+r"\model\testmodel.h5")
-            #self.model = pickle.load(open('model/testmodel.pkl', 'rb'))
+            self.model = krs.models.load_model(fileDir+r"/model/testmodel.h5")
+            #self.model = pickle.load(open('/model/testmodel.pkl', 'rb'))
         except Exception as ex:
             self.model = krs.Sequential([
                 krs.layers.Dense(8, input_shape=(len(self.training[0]),)),
@@ -131,7 +117,7 @@ class TrainAI():
                         loss="categorical_crossentropy", metrics=["acc"])
 
             self.model.fit(self.training, self.output, epochs=1000, batch_size=8)
-            self.model.save(fileDir+r"\model\testmodel.h5")
+            self.model.save(fileDir+r"/model/testmodel.h5")
             #tf.saved_model.simple_save()
             #pickle.dump(self.model, open('model/testmodel.pkl', 'wb'))
 
@@ -192,7 +178,7 @@ class TrainAI():
 
     def voice(self, text):
         tts = gTTS(text)
-        direc  = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'chatbot_website/static/chatbot_website/audio'))
+        direc  = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../', 'UI/static/UI/audio'))
         filepath = direc + '/audio' + str(self.items) + '.mp3'
         filename = 'audio' + str(self.items) + '.mp3'
         #print(direc)
