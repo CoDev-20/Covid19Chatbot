@@ -14,10 +14,23 @@ Rane Gillian Villanueva<br>
 
 ### Instructor
 Engr. Dionis Padilla
- </div>
 
 <br><br>
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+[![GitHub contributors](https://img.shields.io/github/contributors/CoDev-20/Covid19Chatbot.svg)](https://github.com/CoDev-20/Covid19Chatbot/)
+
+[![GitHub forks](https://img.shields.io/github/forks/CoDev-20/Covid19Chatbot.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/CoDev-20/Covid19Chatbot)
+[![GitHub stars](https://img.shields.io/github/stars/CoDev-20/Covid19Chatbot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/CoDev-20/Covid19Chatbot)
+[![GitHub watchers](https://img.shields.io/github/watchers/CoDev-20/Covid19Chatbot.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/CoDev-20/Covid19Chatbot/)
+
+ </div>
+
+<br>
+
 _____
+
 <br><br>
 ## Project Documentation
 * [Setup and Installation](#setup-and-installation)
@@ -53,7 +66,7 @@ conda activate codev20
 ```
 install the libraries and dependencies of the project.
 ```
-pip install -r requirements.txt
+pip install -r BAL/requirements.txt
 ```
 Libraries will take time to download especially for the tensorflow.
  
@@ -162,31 +175,24 @@ The scope and limitation of the CoDev-20 Chatbot is that the bot is trained to a
  
 ![FAQs page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/3.PNG "FAQs page")
  
-### Chatbot page
+### Chatbot page and interactions
  
 ![Chatbot page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/4.PNG "Chatbot page")
  
 ### Chatbot interactions
  
-![Chatbot interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/5.PNG "Chatbot interactions")
+![Chatbot interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/chatbot.PNG "Chatbot interactions")
  
-![Chatbot interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/6.PNG "Chatbot interactions")
- 
-![Chatbot interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/7.PNG "Chatbot interactions")
- 
-<br>
  
 ### Administrator Homepage
  
 ![Chatbot interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/8.PNG "Chatbot interactions")
  
-<br>
  
 ### Accounts database
  
 ![Accounts database](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/9.PNG "Accounts database")
  
-<br>
  
 ### Messages Database
  
