@@ -3,6 +3,9 @@
 # Covid-19 Chatbot
 
 ### Covid-19 Chatbot is a project developed by team CoDev-20 from Mapua Univesity.
+<a>
+<img src="https://i.ibb.co/xXWnXBy/logo123.jpg" height="300" align="center">
+</a>
 
 ### Members
 Gian Karlo Madrid<br>
