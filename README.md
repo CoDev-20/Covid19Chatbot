@@ -177,11 +177,7 @@ The scope and limitation of the CoDev-20 Chatbot is that the bot is trained to a
  
 ### Chatbot page and interactions
  
-![Chatbot page](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/4.PNG "Chatbot page")
- 
-### Chatbot interactions
- 
-![Chatbot interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/chatbot.PNG "Chatbot interactions")
+![Chatbot page and interactions](https://github.com/CoDev-20/Covid19Chatbot/blob/master/UI/images/chatbot.GIF "Chatbot page and interactions")
  
  
 ### Administrator Homepage
