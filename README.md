@@ -69,7 +69,7 @@ conda activate codev20
 ```
 install the libraries and dependencies of the project.
 ```
-pip install -r BAL/requirements.txt
+pip install -r BLL/requirements.txt
 ```
 Libraries will take time to download especially for the tensorflow.
  
